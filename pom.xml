@@ -8,9 +8,9 @@
 
  <!-- Publish the versioned releases here -->
  <snapshotRepository>
-  <id>vineetmanohar-nexus</id>
-  <name>vineetmanohar nexus</name>
-  <url>dav:http://nexus.vineetmanohar.com/nexus/content/repositories/snapshots</url>
+  <id>snapshots</id>
+  <name>Snapshots</name>
+  <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
  </snapshotRepository>
 </distributionManagement>
 
