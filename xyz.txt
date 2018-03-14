@@ -1,7 +1,0 @@
-added few text and wanted to verify the file status
-so only we can initiate the options
-added new branch
-The content is for git pull request review.
-SO git pull request can be added on the instatnces
-12345
-s
