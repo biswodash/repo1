@@ -2,7 +2,7 @@
  <servers>
   <server>
    <!-- this id should match the id of the repo server in pom.xml -->
-   <id>snapshots</id>
+   <id>biswo</id>
    <username>admin</username>
    <password>admin123</password>
   </server>
