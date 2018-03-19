@@ -1,29 +1,10 @@
 <distributionManagement>
- <!-- Publish the versioned releases here -->
- <repository>
-  <id>biswo</id>
-  <name>biswo_test</name>
-  <url>http://nexustest.devcloud.247-inc.net:8081/nexus/content/repositories/biswo</url>
- </repository>
-
+  <repository>
+    <id>biswo</id>
+    <url>http://nexustest.devcloud.247-inc.net:8081/nexus/content/repositories/biswo</url>
+  </repository>
+</distributionManagement>
  
-
-<!-- download artifacts from this repo -->
-<repositories>
- <repository>
-  <id>biswo</id>
-  <name>biswo_test</name>
-  <url>http://nexustest.devcloud.247-inc.net:8081/nexus/content/repositories/biswo</url>
-  <releases>
-   <enabled>true</enabled>
-  </releases>
-
-  <snapshots>
-   <enabled>true</enabled>
-  </snapshots>
- </repository>
-</repositories>
-
 <!-- download plugins from this repo -->
 <pluginRepositories>
  <pluginRepository>
@@ -38,4 +19,4 @@
   </snapshots>
  </pluginRepository>
 </pluginRepositories>
-</distributionManagement>
+
