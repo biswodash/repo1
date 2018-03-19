@@ -2,9 +2,9 @@
  <servers>
   <server>
    <!-- this id should match the id of the repo server in pom.xml -->
-   <id>vineetmanohar-nexus</id>
-   <username>deployment</username>
-   <password>password_goes_here</password>
+   <id>snapshots</id>
+   <username>admin</username>
+   <password>admin123</password>
   </server>
  </servers>
 </settings>
