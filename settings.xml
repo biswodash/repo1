@@ -8,3 +8,13 @@
   </server>
  </servers>
 </settings>
+
+<proxies>
+  <proxy>
+     <active>true</active>
+     <protocol>https</protocol>
+     <host>cache.backside.sv2.tellme.com</host>
+     <port>3128</port>
+     <nonProxyHosts>localhost|10.*|*.sv2.247-inc.net|*.sv2.tellme.com</nonProxyHosts>
+   </proxy>
+</proxies>
