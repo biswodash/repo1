@@ -1,25 +1,19 @@
 <distributionManagement>
  <!-- Publish the versioned releases here -->
  <repository>
-  <id>vineetmanohar-nexus</id>
-  <name>vineetmanohar nexus</name>
-  <url>dav:http://nexus.vineetmanohar.com/nexus/content/repositories/releases</url>
+  <id>biswo</id>
+  <name>biswo_test</name>
+  <url>http://nexustest.devcloud.247-inc.net:8081/nexus/content/repositories/biswo</url>
  </repository>
 
- <!-- Publish the versioned releases here -->
- <snapshotRepository>
-  <id>snapshots</id>
-  <name>Snapshots</name>
-  <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
- </snapshotRepository>
-</distributionManagement>
+ 
 
 <!-- download artifacts from this repo -->
 <repositories>
  <repository>
-  <id>releases</id>
-  <name>Releases</name>
-  <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+  <id>biswo</id>
+  <name>biswo_test</name>
+  <url>http://nexustest.devcloud.247-inc.net:8081/nexus/content/repositories/biswo</url>
   <releases>
    <enabled>true</enabled>
   </releases>
@@ -33,9 +27,9 @@
 <!-- download plugins from this repo -->
 <pluginRepositories>
  <pluginRepository>
-  <id>vineetmanohar-nexus</id>
-  <name>vineetmanohar</name>
-  <url>http://nexus.vineetmanohar.com/nexus/content/groups/public</url>
+  <id>biswo</id>
+  <name>biswo_test</name>
+  <url>http://nexustest.devcloud.247-inc.net:8081/nexus/content/repositories/biswo</url>
   <releases>
    <enabled>true</enabled>
   </releases>
