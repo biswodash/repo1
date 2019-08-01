@@ -6,7 +6,7 @@ libraries {
 	stages{
 	stage('Demo')
 		{
-		steps{echo 'Hello world'}
+		steps{echo 'Hello biswo'}
 		}
 	      }
 	}
