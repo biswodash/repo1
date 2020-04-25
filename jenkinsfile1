@@ -5,7 +5,7 @@ stage('SCM')
 	  doGenerateSubmoduleConfigurations: false, 
 	  extensions: [], 
 	  submoduleCfg: [], 
-	  userRemoteConfigs: [[url: 'ssh://tfssand.ta.philips.com:22/tfs/SandBox/UTS_Sandbox/_git/TA_TEST']]])
+	  userRemoteConfigs: [[url: 'https://github.com/biswodash/repo1.git']]])
 	  }
 stage('Build')
       {
