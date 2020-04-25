@@ -1,4 +1,4 @@
-node ('RADARTEST') {
+node ('slave1') {
 stage('SCM')
 	  {
 	  checkout([$class: 'GitSCM', branches: [[name: '*/master']], 
