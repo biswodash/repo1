@@ -1,0 +1,34 @@
+node ('RADARTEST') {
+stage('SCM')
+	  {
+	  checkout([$class: 'GitSCM', branches: [[name: '*/master']], 
+	  doGenerateSubmoduleConfigurations: false, 
+	  extensions: [], 
+	  submoduleCfg: [], 
+	  userRemoteConfigs: [[url: 'ssh://tfssand.ta.philips.com:22/tfs/SandBox/UTS_Sandbox/_git/TA_TEST']]])
+	  }
+stage('Build')
+      {
+	  echo "testing build..."
+	  }
+
+stage('Test')
+      {
+	  echo "testing test..."
+	  }
+
+stage('Package')
+      {
+	  echo "testing package..."
+	  }
+
+stage('Publish')
+      {
+	  echo "testing publish..."
+	  }
+
+stage('Deploy')
+      {
+	  echo "testing deploy..."
+	  }
+            }
