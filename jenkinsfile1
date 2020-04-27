@@ -33,6 +33,6 @@ stage('Deploy')
 	  }
 	  stage('Archive')
       {
-	  archiveArtifacts artifacts: 'Pipeline1/*.*'
+	  archiveArtifacts artifacts: '$workspace/*.*'
 	  }
             }
