@@ -30,7 +30,7 @@ stage('Publish')
 stage('Deploy')
       {
 	  echo "testing deploy..."
-	  echo $WORKSPACE
+	  
 	  }
 	  stage('Archive')
       {
