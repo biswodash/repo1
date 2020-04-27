@@ -31,4 +31,8 @@ stage('Deploy')
       {
 	  echo "testing deploy..."
 	  }
+	  stage('Archive')
+      {
+	  archiveArtifacts artifacts: 'Pipeline1/*.*'
+	  }
             }
