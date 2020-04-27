@@ -30,9 +30,10 @@ stage('Publish')
 stage('Deploy')
       {
 	  echo "testing deploy..."
+	  echo $WORKSPACE
 	  }
 	  stage('Archive')
       {
-	  archiveArtifacts artifacts: '$workspace/*.*'
+	  archiveArtifacts artifacts: '/var/jenkins_home/workspace/Pipeline1/*.*'
 	  }
             }
